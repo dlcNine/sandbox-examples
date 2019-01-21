@@ -1,5 +1,6 @@
 # Sandbox-examples
-This repo contains boilerplate HTML for you to use to kickstart your next Sandbox project, which can be [seen here](https://dlcnine.github.io/sandbox-examples/).
+This repo contains boilerplate HTML for you to use to kickstart your next Sandbox project.
+[Click here to view](https://dlcnine.github.io/sandbox-examples/).
 
 ### How to Use
 Clone the repo and modify the views. The `sandbox-min.css` file is already placed in the `public/css` directory.
