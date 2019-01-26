@@ -5,29 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A simple blog post made using Sandbox.">
     <title>Blog Post | Sandbox Examples</title>
-    <!-- <link rel="stylesheet" href="./public/css/sandbox-min.css" type="text/css"> -->
-    <link rel="stylesheet" href="../css/sandbox-min.css" type="text/css">
+    <link rel="stylesheet" href="./public/css/sandbox-min.css" type="text/css">
 </head>
 <body>
     <div class="h-3-4-vh p-1 primary relative">
         <div class="absolute center-center">
-            <h1>Post Title</h1>
+            <h1>Blog Post Title</h1>
         </div>
     </div>
     <div class="grid m-0">
-        <div class="unit-8 py-3 push-2">
+        <div class="unit-10-sm push-1-sm unit-8 push-2 py-3">
             <div class="grid">
-                <div class="unit-12-sm unit-6">
+                <div class="unit-12-sm">
                     <div class="flex cross-center mb-1">
-                        <figure class="squared x4 r-round light text mr-1">img</figure>
+                        <figure class="squared x4 r-round light text mr-1">
+                            img
+                            <!-- <img src="" alt=""> -->
+                        </figure>
                         <div>
                             <p>First Lastname</p>
-                            <p class="h5 text-muted">Month day, year</p>
+                            <p class="h5 text-muted">month day, year</p>
                         </div>
                     </div>
-                </div>
-                <div class="unit-12-sm unit-6">
-                    
                 </div>
             </div>
             <hr class="mb-2">
@@ -38,9 +37,13 @@
             <h2>Sub Section Title</h2>
             <hr class="w-1-2 mx-atuo mb-2">
             <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur non, voluptatibus sit. Sed, culpa, error. Quisquam ducimus libero enim aperiam id. Nihil aliquam amet eaque nam, blanditiis iure natus dolore sapiente laudantium quasi fuga nisi! Quo praesentium iure iusto iste, aspernatur facere aut officia ex quibusdam repudiandae earum explicabo, voluptates.</p>
-            <ul class="ul disc ml-4 mb-2">
+            <ul class="ul disc mb-2 ml-1">
                 <li>Lorem ipsum dolor sit amet.</li>
                 <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+                <ul class="ul circle">
+                    <li>Lorem ipsum.</li>
+                    <li>Lorem ipsum.</li>
+                </ul>
                 <li>Lorem ipsum dolor sit amet, consectetur.</li>
             </ul>
             <p class="mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui quod a placeat nulla inventore commodi laudantium maxime dolores reprehenderit explicabo, nihil repudiandae natus illum in ipsa dignissimos eligendi et nam aliquid architecto. Dicta, consequuntur minima officia eligendi inventore sapiente ea! Vero natus quidem minima hic laboriosam, expedita iusto in reprehenderit.</p>
@@ -48,6 +51,8 @@
             <ul class="pagination">
                 <li class="page">
                     <a href="" class="page-a">previous</a>
+                </li>
+                <li class="page">
                     <a href="" class="page-a">next</a>
                 </li>
             </ul>     
@@ -56,7 +61,7 @@
     <div class="dark p-4">
         <h3 class="mb-2">Subscribe to this blog</h3>
         <div class="addons h3 mb-4">
-            <input type="text" class="textbox" placeholder="email address">
+            <input type="email" class="textbox" placeholder="email address">
             <span class="addon interactive">
                 <button class="button">subscribe</button>
             </span>
