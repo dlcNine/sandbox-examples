@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A checkout form made using Sandbox">
+    <title>Checkout | Sandbox Examples</title>
+    <link rel="stylesheet" href="../css/sandbox-min.css" type="text/css">
+</head>
+<body>
+    <div class="navbar flex between primary cross-center">
+        <div class="navbar-item">
+            <p class="h3 fw-lighter">Brand Name</p>
+        </div>
+        <div class="navbar-item">
+            <button class="button r-round light">Keep Shopping</button>
+        </div>
+    </div>
+    <div class="p-4">
+        <h1>Checkout Form</h1>
+        <hr class="mb-2">
+        <div class="flex grid flex-wrap">
+            <div class="unit-12-sm unit-8 order-2-sm">
+                <form class="grid">
+                    <div class="unit-12">
+                        <h2>Shipping</h2>
+                        <hr class="w-1-3">
+                    </div>
+                    <div class="unit-12-sm unit-6">
+                        <div class="field">
+                            <p class="title">First Name</p>
+                            <input type="text" class="textbox">
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="unit-12-sm unit-6">
+                        <div class="field">
+                            <p class="title">Last Name</p>
+                            <input type="text" class="textbox">
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="unit-12-sm unit-12">
+                        <div class="field">
+                            <p class="title">Address</p>
+                            <input type="text" class="textbox">
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="unit-12-sm unit-4">
+                        <div class="field">
+                            <p class="title">City</p>
+                            <input type="text" class="textbox">
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="unit-12-sm unit-4">
+                        <div class="field">
+                            <p class="title">State</p>
+                            <select class="textbox">
+                                <option value="">Select a State</option>
+                                <option value="aState">A State</option>
+                            </select>
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="unit-12-sm unit-4">
+                        <div class="field">
+                            <p class="title">Zip Code</p>
+                            <input type="text" class="textbox">
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="unit-12">
+                        <div class="field">
+                            <p class="title">Save Address?</p>
+                            <label class="radio mr-2">
+                                <input name="saveAddress" value="yes" type="radio" checked>
+                                Yes
+                            </label>
+                            <label class="radio">
+                                <input name="saveAddress" value="no" type="radio">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="unit-12">
+                        <h2>Credit Card</h2>
+                        <hr class="w-1-3">
+                    </div>
+                    <div class="unit-12-sm unit-6">
+                        <div class="field">
+                            <p class="title">Cardholder</p>
+                            <input type="text" class="textbox">
+                            <p class="help">Name as it appears on card</p>
+                        </div>
+                    </div>
+                    <div class="unit-12-sm unit-6">
+                        <div class="field">
+                            <p class="title">Card Number</p>
+                            <input type="text" class="textbox">
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="new-line"></div>
+                    <div class="unit-6">
+                        <div class="field">
+                            <p class="title">Expiration</p>
+                            <input type="text" class="textbox">
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="unit-6">
+                        <div class="field">
+                            <p class="title">CVV</p>
+                            <input type="text" class="textbox">
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="unit-12">
+                        <button type="submit" class="button primary">Make Purchase</button>
+                    </div>
+                </form>
+            </div>
+            <div class="unit-12-sm unit-4 order-1-sm">
+                <h2 class="mb-1">Cart <span class="tag r-round">3</span></h2>
+                <div class="card">
+                    <div class="card-body">
+                        <ul class="list-items">
+                            <li class="list-item">
+                                <p>Item Name</p>
+                                <p class="text-muted h5">#000-00-00</p>
+                                <p>Qty: <span class="to-right">2</span></p>
+                                <p>Price Per Unit: <span class="to-right">4.99</span></p>
+                                <p><strong>subtotal: <span class="to-right">9.98</span></strong></p>
+                            </li>
+                            <li class="list-item">
+                                <p>Item Name <span class="tag info">Sale Item</span></p>
+                                <p class="text-muted h5">#000-00-00</p>
+                                <p>Qty: <span class="to-right">2</span></p>
+                                <p>Price Per Unit: <span class="to-right">1.99</span></p>
+                                <p><strong>subtotal: <span class="to-right">3.98</span></strong></p>
+                            </li>
+                            <li class="list-item">
+                                <p>Item Name</p>
+                                <p class="text-muted h5">#000-00-00</p>
+                                <p>Qty: <span class="to-right">2</span></p>
+                                <p>Price Per Unit: <span class="to-right">4.99</span></p>
+                                <p><strong>subtotal: <span class="to-right">9.98</span></strong></p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bt">
+                        <p class="text-muted h5 mb-1">Shipping: <span class="to-right">2.99</span></p>
+                        <p><strong>Total: <span class="to-right">26.93</span></strong></p>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
