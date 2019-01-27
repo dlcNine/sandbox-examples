@@ -19,10 +19,111 @@
     <div class="p-4">
         <h1>Checkout Form</h1>
         <hr class="mb-2">
-        <div class="grid">
-            <div class="unit-8"></div>
-            <div class="unit-4">
-                <h3 class="mb-1">Items <span class="tag r-round">3</span></h3>
+        <div class="flex grid flex-wrap">
+            <div class="unit-12-sm unit-8 order-2-sm">
+                <form class="grid">
+                    <div class="unit-12">
+                        <h2>Shipping</h2>
+                        <hr class="w-1-3">
+                    </div>
+                    <div class="unit-12-sm unit-6">
+                        <div class="field">
+                            <p class="title">First Name</p>
+                            <input type="text" class="textbox">
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="unit-12-sm unit-6">
+                        <div class="field">
+                            <p class="title">Last Name</p>
+                            <input type="text" class="textbox">
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="unit-12-sm unit-12">
+                        <div class="field">
+                            <p class="title">Address</p>
+                            <input type="text" class="textbox">
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="unit-12-sm unit-4">
+                        <div class="field">
+                            <p class="title">City</p>
+                            <input type="text" class="textbox">
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="unit-12-sm unit-4">
+                        <div class="field">
+                            <p class="title">State</p>
+                            <select class="textbox">
+                                <option value="">Select a State</option>
+                                <option value="aState">A State</option>
+                            </select>
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="unit-12-sm unit-4">
+                        <div class="field">
+                            <p class="title">Zip Code</p>
+                            <input type="text" class="textbox">
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="unit-12">
+                        <div class="field">
+                            <p class="title">Save Address?</p>
+                            <label class="radio mr-2">
+                                <input name="saveAddress" value="yes" type="radio" checked>
+                                Yes
+                            </label>
+                            <label class="radio">
+                                <input name="saveAddress" value="no" type="radio">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                    <div class="unit-12">
+                        <h2>Credit Card</h2>
+                        <hr class="w-1-3">
+                    </div>
+                    <div class="unit-12-sm unit-6">
+                        <div class="field">
+                            <p class="title">Cardholder</p>
+                            <input type="text" class="textbox">
+                            <p class="help">Name as it appears on card</p>
+                        </div>
+                    </div>
+                    <div class="unit-12-sm unit-6">
+                        <div class="field">
+                            <p class="title">Card Number</p>
+                            <input type="text" class="textbox">
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="new-line"></div>
+                    <div class="unit-6">
+                        <div class="field">
+                            <p class="title">Expiration</p>
+                            <input type="text" class="textbox">
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="unit-6">
+                        <div class="field">
+                            <p class="title">CVV</p>
+                            <input type="text" class="textbox">
+                            <p class="help"></p>
+                        </div>
+                    </div>
+                    <div class="unit-12">
+                        <button type="submit" class="button primary">Make Purchase</button>
+                    </div>
+                </form>
+            </div>
+            <div class="unit-12-sm unit-4 order-1-sm">
+                <h2 class="mb-1">Cart <span class="tag r-round">3</span></h2>
                 <div class="card">
                     <div class="card-body">
                         <ul class="list-items">
