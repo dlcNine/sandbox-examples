@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/dlcNine/sandbox-examples#readme",
   "dependencies": {
-    "sandbox-css": "^0.3.2"
+    "sandbox-css": "^0.3.3"
   }
 }
